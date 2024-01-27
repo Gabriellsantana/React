@@ -1,11 +1,31 @@
-01- encontrei um erro , precisei intalar npm pelo terminal com o comando (npm install -g npm@latest
+git remote add origin https://github.com/Gabriellsantana/estudosReact.git
+git branch -M main
+git push -u origin main
+
+push "main"  - nome da branch
+////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+01 - encontrei um erro , precisei intalar npm pelo terminal com o comando (npm install -g npm@latest
 )
-02- como esse comando criei um pasta com minha priemeira aplicação react (npx create-react-app hello-world) nome da pasta hello world
-03- usei o comando cd .\hello-world\ pazra entra na pagina do projeto
-04 - npm start (toda aula tem que da o npm start na pasta do projeto)
+02 - como esse comando criei um pasta com minha priemeira aplicação React (npx create-react-app hello-world) nome da pasta "hello world"
+
+03- usei o comando cd .\hello-world\ para entra na pagina do projeto , comando cd é ultoilizado para acessar uma página
+
+04 - npm start (toda vez que renicia a IDE tem que dar npm start na pasta do projeto para inicilaizar como se fosse o Go Live)
 
 05- a pagina principal de código é a src pasta onde vamos modificar ou codar
+ ///////////////////////////////////////////////////////////////////////////////////////////////////////////
 
+(React Vite é uma forma mais fácil e utlizada atulamnete para aplicaçãoes em recat fazer mesma coisaq dos comandos acima mais rápido e limpo)
 vite - O Vite é um empacotador de módulos desenvolvido para a plataforma JavaScript. Ele oferece uma compilação super rápida que pode ajudar no processo de desenvolvimento de aplicativos web em React.
 
 passo-a-passo : 1-npm create vite@latest  2- ele vai pedir para nomer o nome do projeto 3- vai lista as blibotecas (selecionar react) 4- vai  lista algumas liguagens (selecionar javascript) 5- ele vai lista tres instruções (cd nome do projeto) (npm install) (npm run dev)
+////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+SOBRE AS PASTA DOS PROJETO (REACT)
+
+(node_modules): Onde as dependências do projeto ficam
+(public): Assets estáticas e HTML de inicilaização
+(src): Onde vamos programar as nossas aplicações
+(src/index.js): Arquivo de incialização do React
+(src/App.js): Componente princiapal da aplicação
