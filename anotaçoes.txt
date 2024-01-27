@@ -1,0 +1,11 @@
+01- encontrei um erro , precisei intalar npm pelo terminal com o comando (npm install -g npm@latest
+)
+02- como esse comando criei um pasta com minha priemeira aplicação react (npx create-react-app hello-world) nome da pasta hello world
+03- usei o comando cd .\hello-world\ pazra entra na pagina do projeto
+04 - npm start (toda aula tem que da o npm start na pasta do projeto)
+
+05- a pagina principal de código é a src pasta onde vamos modificar ou codar
+
+vite - O Vite é um empacotador de módulos desenvolvido para a plataforma JavaScript. Ele oferece uma compilação super rápida que pode ajudar no processo de desenvolvimento de aplicativos web em React.
+
+passo-a-passo : 1-npm create vite@latest  2- ele vai pedir para nomer o nome do projeto 3- vai lista as blibotecas (selecionar react) 4- vai  lista algumas liguagens (selecionar javascript) 5- ele vai lista tres instruções (cd nome do projeto) (npm install) (npm run dev)
