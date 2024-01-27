@@ -19,7 +19,15 @@ push "main"  - nome da branch
 (React Vite é uma forma mais fácil e utlizada atulamnete para aplicaçãoes em recat fazer mesma coisaq dos comandos acima mais rápido e limpo)
 vite - O Vite é um empacotador de módulos desenvolvido para a plataforma JavaScript. Ele oferece uma compilação super rápida que pode ajudar no processo de desenvolvimento de aplicativos web em React.
 
-passo-a-passo : 1-npm create vite@latest  2- ele vai pedir para nomer o nome do projeto 3- vai lista as blibotecas (selecionar react) 4- vai  lista algumas liguagens (selecionar javascript) 5- ele vai lista tres instruções (cd nome do projeto) (npm install) (npm run dev)
+passo-a-passo : 
+1-npm create vite@latest  
+2- ele vai pedir para nomer o nome do projeto 
+3- vai lista as blibiotecas (selecionar react) 
+4- vai  lista algumas liguagens (selecionar javascript) 
+5- ele vai lista tres instruções 
+5.1(cd nome do projeto) 
+5.2(npm install) 
+5.3(npm run dev) inicializar projeto
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 SOBRE AS PASTA DOS PROJETO (REACT)
@@ -30,3 +38,15 @@ SOBRE AS PASTA DOS PROJETO (REACT)
 (src/index.js): Arquivo de incialização do React
 (src/App.js): Componente princiapal da aplicação
 teste
+////////////////////////////////////////////////////////////////////////////////////////////////////////////
+EXTENÇÔES ->
+
+ (Emmet) ajudar escrever HTML CSS mais rápido no React pq se não vc vai escrever uma tag e ferramenta não vai completar ela (essa extenção e confg dentro do vscode das proprias confg)
+ obs: arquivo > preferencias > configurações > pesquisar (emmet) > add liguagem > depois escrever nos dois campos (javascript) (javascriptreact)
+
+ para ajudar React vscode ela gera alguns codi pronto (ES7-react snippets)
+
+ ///////////////////////////////////
+ Como o curso já tem certa idade, naquela época era comum criar componentes com js, depois o jsx veio a ser o padrão.
+
+///////////////////////////////////
