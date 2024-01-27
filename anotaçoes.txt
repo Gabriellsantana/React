@@ -29,3 +29,4 @@ SOBRE AS PASTA DOS PROJETO (REACT)
 (src): Onde vamos programar as nossas aplicações
 (src/index.js): Arquivo de incialização do React
 (src/App.js): Componente princiapal da aplicação
+teste
