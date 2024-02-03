@@ -50,3 +50,6 @@ EXTENÇÔES ->
  Como o curso já tem certa idade, naquela época era comum criar componentes com js, depois o jsx veio a ser o padrão.
 
 ///////////////////////////////////
+Comentarios em react = "//"comentario
+//////////////////////////////////////////
+toda estrutura react ta intregada com javascript então voçê poder assionar qualquer comando em javascript dentro dos proprio templates em HTML sem precisar inporta ou uma páginas secundaria
