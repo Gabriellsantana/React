@@ -7,6 +7,7 @@ import './App.css'
 import FirstComponenr from './components/FirstComponets' //aqui eu inportei
 import Paragrafo from './components/paragrafo'
 import TemplatesExpressions from './components/TemplatesExpressions'
+import Mycomponets from './components/Mycomponets'
 
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
       <FirstComponenr/> 
       <Paragrafo/>
       <TemplatesExpressions/>
+      <Mycomponets/>
     </>
   )
 }

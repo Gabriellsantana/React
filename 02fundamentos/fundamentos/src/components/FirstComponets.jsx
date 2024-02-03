@@ -1,7 +1,10 @@
+import Mycomponets from "./Mycomponets";
+
 const FirstComponenr = () =>{ //criando a função que vai retorna nossa aplicação o web
     return(
         <div>
             <h1>Meu primeiro componente</h1>
+             <Mycomponets/>
         </div>
     )
 }
