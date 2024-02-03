@@ -4,6 +4,13 @@ const Eventos = () =>{
     const enviar = () =>{
         window.alert("Evento Ativado");
     };
+  const rederizando = (x) =>{ //functin com condição
+    if(x) {
+        return <h2>Renderizando isso!</h2>
+    } else{
+        return <h3>Também posso renderizar isso!</h3>
+    }
+  }
     return(
         <div>
             <div>
@@ -13,6 +20,8 @@ const Eventos = () =>{
             <div>
                 <button onClick={() => window.alert("clicou em salvar")}>Salvar</button>
             </div>
+            {rederizando(true)}
+            {rederizando(false)}
         </div>
     )
 };

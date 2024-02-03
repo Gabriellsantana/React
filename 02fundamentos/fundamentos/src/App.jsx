@@ -9,6 +9,8 @@ import Paragrafo from './components/paragrafo'
 import TemplatesExpressions from './components/TemplatesExpressions'
 import Mycomponets from './components/Mycomponets'
 import Eventos from './components/Events'
+import Challenge from './components/Challenge'
+
 
 
 function App() {
@@ -25,6 +27,7 @@ function App() {
       <TemplatesExpressions/>
       <Mycomponets/>
        <Eventos/>
+       <Challenge/>
     </>
   )
 }
