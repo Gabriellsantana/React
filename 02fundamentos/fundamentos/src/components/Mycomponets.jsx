@@ -5,7 +5,7 @@
 const Mycomponets = () =>{
     return(
         <div>
-            <h1>eu estou sendo réaproveitado</h1>
+            <h1>Eu estou sendo Reaproveitado</h1>
         </div>
     )
 }

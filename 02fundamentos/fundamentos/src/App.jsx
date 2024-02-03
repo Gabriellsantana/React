@@ -8,6 +8,7 @@ import FirstComponenr from './components/FirstComponets' //aqui eu inportei
 import Paragrafo from './components/paragrafo'
 import TemplatesExpressions from './components/TemplatesExpressions'
 import Mycomponets from './components/Mycomponets'
+import Eventos from './components/Events'
 
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
       <Paragrafo/>
       <TemplatesExpressions/>
       <Mycomponets/>
+       <Eventos/>
     </>
   )
 }
