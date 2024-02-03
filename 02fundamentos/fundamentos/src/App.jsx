@@ -21,6 +21,7 @@ function App() {
       </div>
       <FirstComponenr/> 
       <Paragrafo/>
+      <hr />
       <TemplatesExpressions/>
       <Mycomponets/>
        <Eventos/>
