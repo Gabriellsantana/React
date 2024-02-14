@@ -4,6 +4,7 @@ const Challenge = () => {
     const somar = () =>{
        const result = a+b;
        console.log(result);
+       window.alert(result);
     }
     return(
         <div>

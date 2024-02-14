@@ -11,7 +11,11 @@ import Mycomponets from './components/Mycomponets'
 import Eventos from './components/Events'
 import Challenge from './components/Challenge'
 
-
+//os componate deve com sempre a primeira letra Maiscula //
+//<TemplatesExpressions/>
+//<Mycomponets/>
+//<Eventos/>
+// <Challenge/>
 
 function App() {
   const [count, setCount] = useState(0)
