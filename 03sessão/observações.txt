@@ -1,0 +1,8 @@
+01-priemeira aula da sessão = inportamos imagens / podemos colocar as imagens em duas pasta do projeto react que é a ./public./assets/  oque altera é o modo de inporta as img dentro do projeto 
+
+public = so é criar uma tag img la nos templetes é so chama a imagem com barra e nome delqa ex:  /imagem.jpg
+
+assets: aqui é criado um componente para importa a imagem  ex: import Nomequevcquiser from "./assets/imagem.jpg"; depois dentro do templetes vc add a tag img mais altera a importação ex:   <img src= {Nomequevcquiser} alt="descrição" />
+
+02-hooks
+Recurso do react que tem varias função / como: guardar e alterar o estado de alguma dado na nossa aplicação / todos os hooks comoçam com use , ex: useState / podemos criar os nossos hooks , isso é chamado de custom hook / os hooks precisam ser importados 
