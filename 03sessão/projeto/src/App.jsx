@@ -6,6 +6,7 @@ import './App.css'
 import Monalisa from "./assets/monalisa.webp"; //aqui vc inporta como se fosse um componente OBS:sempre letra MAISCULA o nome do componmente
 import Function1 from './componets/ManageData';
 import ListsRender from './componets/ListsRender';
+import Condicional from './componets/Condicional';
  
 function App() {
   const [count, setCount] = useState(0)
@@ -27,6 +28,7 @@ function App() {
           </div>
              <Function1/>
              <ListsRender />
+             <Condicional />
     </>
   )
 }
