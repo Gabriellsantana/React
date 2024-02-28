@@ -7,6 +7,7 @@ import Monalisa from "./assets/monalisa.webp"; //aqui vc inporta como se fosse u
 import Function1 from './componets/ManageData';
 import ListsRender from './componets/ListsRender';
 import Condicional from './componets/Condicional';
+import ShowUserName from './componets/ShowUserName';
  
 function App() {
   const [count, setCount] = useState(0)
@@ -29,6 +30,7 @@ function App() {
              <Function1/>
              <ListsRender />
              <Condicional />
+             <ShowUserName name = "Gabriel"/>
     </>
   )
 }
