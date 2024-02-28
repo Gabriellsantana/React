@@ -8,6 +8,7 @@ import Function1 from './componets/ManageData';
 import ListsRender from './componets/ListsRender';
 import Condicional from './componets/Condicional';
 import ShowUserName from './componets/ShowUserName';
+import CarDetails from './componets/CarDetails';
  
 function App() {
   const [count, setCount] = useState(0)
@@ -30,7 +31,16 @@ function App() {
              <Function1/>
              <ListsRender />
              <Condicional />
+
+             {/*priemira forma de proops*/}
              <ShowUserName name = "Gabriel"/>
+
+               {/*segunda forma de Destructuring em props*/}
+             <CarDetails brand="Ferrari" cor="Vermelha" km={200} />
+              
+               {/*reaproveitando*/}
+             <CarDetails brand="Bugatti" cor="Azul" km={300} newCar={true}  />
+             <CarDetails brand="Merecds" cor="Amarelo" km={400} newCar={false} />
     </>
   )
 }
