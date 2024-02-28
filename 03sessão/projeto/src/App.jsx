@@ -9,13 +9,15 @@ import ListsRender from './componets/ListsRender';
 import Condicional from './componets/Condicional';
 import ShowUserName from './componets/ShowUserName';
 import CarDetails from './componets/CarDetails';
+import Fragments from './componets/Fragments';
+import Container from './componets/Container';
  
 function App() {
   const [count, setCount] = useState(0)
 
     const cars =[
       {id:1 ,brand:'Renault', color:'branco',newCar:true, km: 566 },
-      {id:2 ,brand:'Ford', color:'Vermelho',newCar:true, km: 1234 },
+      {id:2 ,brand:'Ford', color:'Verde',newCar:true, km: 1234 },
       {id:3 ,brand:'BMX', color:'Azul',newCar:true, km: 9876 }
     ]
 
@@ -50,8 +52,16 @@ function App() {
 
              {/*loop com array de objetos*/}
              {cars.map((car)=>(
-                 <CarDetails brand={car.brand} color={car.color} km={car.km} newCar={car.newCar} />
+                 <CarDetails brand={car.brand} cor={car.color} km={car.km} newCar={car.newCar} />
              ))}
+               {/*fragmento*/}
+               <Fragments/>
+
+              {/*container tem sert feito igual as tag html com abertura e fechamento*/} 
+              <Container myValue={"testing"}>
+                 <p>escrevendo dentro do conatiner atraves da propria pasta App.jsx</p>
+              </Container>
+               
     </>
   )
 }
